@@ -22,4 +22,15 @@ console.log(getRestAfterDivision(7000, 3));
 
 
 
+  //increment
+let y=3000;
+console.log(y++);
+console.log (y)
+
+//Decrement
+let x =3000;
+console.log(x--);
+console.log (x)
+
+
 
