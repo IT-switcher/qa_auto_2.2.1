@@ -1,25 +1,25 @@
 function increaseBalance(x, y) {
-  x = x + y;
-  return x;
+  Z = x + y;
+  return Z;
 }
-
-function decreaseBalance(x) {
-x = x - y;
-return x;
-}
-
-function divideBalanceByAccounts(x, y) {
-  x = x / y;
-  return x;
-  console.log("x");
-}
-
-function getRestAfterDivision(x, y) {
-  x = x % y;
-  return x;
-}
-
 console.log(increaseBalance(3000, 700));
+function decreaseBalance(x,y) {
+let Z = x - y;
+return Z;
+}
 console.log(decreaseBalance(3000, 700));
-console.log(divideBalanceByAccounts(3000, 2, 4000));
+function divideBalanceByAccounts(x, y) {
+  Z = x / y;
+  return Z;
+  console.log(Z);
+}
+console.log(divideBalanceByAccounts(3000, 2));
+function getRestAfterDivision(x, y) {
+  Z = x/y;
+  return Z;
+}
 console.log(getRestAfterDivision(7000, 3));
+
+
+
+
