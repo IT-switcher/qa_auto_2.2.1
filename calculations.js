@@ -20,7 +20,7 @@ function getRestAfterDivision(x, y) {
 }
 console.log(getRestAfterDivision(7000, 3));
 
-
+ 
 
   //increment
 let y=3000;
